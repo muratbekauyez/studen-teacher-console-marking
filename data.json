@@ -1,0 +1,89 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password": "root",
+            "role": "admin"
+        },
+        {
+            "username": "obi-wan",
+            "password": "high-ground",
+            "role": "teacher"
+        },
+        {
+            "username": "yoda",
+            "password": "password-it-is",
+            "role": "teacher"
+        },
+        {
+            "username": "anakin",
+            "password": "padme",
+            "role": "student"
+        },
+        {
+            "username": "luke",
+            "password": "last-jedi",
+            "role": "student"
+        },
+        {
+            "username": "leya",
+            "password": "han-solo",
+            "role": "student"
+        }
+    ],
+    "courses": [
+        {
+            "course-name": "jedi basics",
+            "teacher": "obi-wan",
+            "students": [
+                {
+                    "anakin": "A",
+                    "luke": "B",
+                    "leya": "F"
+                }
+            ]
+        },
+        {
+            "course-name": "jedi advances",
+            "teacher": "yoda",
+            "students": [
+                {
+                    "anakin": "C",
+                    "luke": "A",
+                    "leya": "D"
+                }
+            ]
+        },
+        {
+            "course-name": "politics",
+            "teacher": "yoda",
+            "students": [
+                {
+                    "luke": "D",
+                    "leya": "A"
+                }
+            ]
+        },
+        {
+            "course-name": "sith",
+            "teacher": "obi-wan",
+            "students": [
+                {
+                    "anakin": "A",
+                    "luke": "F",
+                    "leya": "F"
+                }
+            ]
+        }
+    ],
+    "rooms": [
+        {
+            "teacher": "obi-wan",
+            "room": "213"
+        },
+        {
+            "teacher": "yoda",
+            "room": "257"
+        }
+    ]
+}
